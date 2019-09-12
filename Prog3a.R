@@ -1,3 +1,4 @@
+# Prog2
 buff.tail <- c(10,1,37,5,12)
 garden.bee <- c(8,3,9,6,4)
 red.tail <- c(18,9,12,4,-1)
@@ -8,7 +9,9 @@ bees.frame
 rownames(bees.frame) <- c("Thistle", "Vipers", "Golden Rain", "Yellowalfala", "Blackberry")
 bees.frame
 
+# create matrix object from data in Prog2
 bees.mat <- data.matrix(bees.frame)
 bees.mat
 
+#  make a List using the plant names to include in the list along with the original data
 bees.list <- list(rownames(bees.frame), bees.mat)
